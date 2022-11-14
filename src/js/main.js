@@ -5,9 +5,8 @@ const dataSavedMessage = document.getElementById('data-saved');
 const saveErrorMessage = document.getElementById('save-error');
 const addEventButton = document.getElementById('add-event-button');
 const easterEgg = 'linguica toscana';
-const binary = `01100101 01100100 01111001 00100000 
-01110011 01100101 01100111 01110101 01110010 01100001 
-00100000 01110000 01101001 01101110 01110100 01101111 `;
+const binary = `01000101 01100001 01110011 01110100 01100101 
+                01110010 00100000 01000101 01100111 01100111  `;
 
 // TODO - register service worker
 if ('serviceWorker' in navigator) {
